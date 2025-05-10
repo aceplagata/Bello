@@ -1,0 +1,464 @@
+err sys
+ SYSTEM LOG:
+  1. +HwDogDriverInit
+  2. Info: nk.exe # 2021-10-03 13:56:32  # HwDogDriverInit: device id = 0x31
+  3. Info: nk.exe # 2021-10-03 13:56:32  # GPIO Init: ARMWDogDisable is set to 0
+  4. WDGRebootQualifier [2]
+  5. UpdateImageConfig
+  6. Notice: nk.exe # 2021-10-03 13:56:32  # 13:56:10 10-03-2021: AV3 v1.8000.0014 Application watchdog fault: CIPCommandProcessor(1)  7. Notice: nk.exe # 2021-10-03 13:56:32  # System startup: AV3 [v1.8000.0014 (May 20 2021) #8DA24411]
+  8. setIP: Registry static IP setting = 0.0.0.0
+  9. Info: nk.exe # 2021-10-03 13:56:32  #  UpdateDHCPOptions:HostName option selected 
+ 10. Info: nk.exe # 2021-10-03 13:56:32  #  UpdateDHCPOptions:HostName option selected 
+ 11. Error: nk.exe # 2021-10-03 13:56:32  # setDomainName: Setting Domain Name to (null)
+ 12. Info: nk.exe # 2021-10-03 13:56:32  # With changes
+ 13. Info: nk.exe # 2021-10-03 13:56:32  # Updating DHCP options on boot
+ 14. Sec_Init pStorageInfo->dwNumBlobStored [1]
+ 15. Info: nk.exe # 2021-10-03 13:56:33  # UIHAL BASE: device id = 0x1
+ 16. 
+Open existing DSTORE File: UIDStore.bin
+ 17. DATASTORE: Existing File
+ 18. 	UsbHost : New Hub [address(1) / layer(0)]
+ 19. Info: nk.exe # 2021-10-03 13:56:35  # CExternalHub::WaitForPortStatusChange: port 5 change
+ 20. Info: nk.exe # 2021-10-03 13:56:35  # 
+HubStatusChangeThread: Port 5 Connection Changed, device already exist: 0
+ 21. Ethernet auto-negotiated 100Mbps, Full Duplex
+ 22. Info: nk.exe # 2021-10-03 13:56:35  # 
+Port 5 Attached
+ 23. Info: nk.exe # 2021-10-03 13:56:35  # 
+CHub: Dev attached
+ 24. Info: nk.exe # 2021-10-03 13:56:35  # 	UsbHost : New Function [address(4) / layer(1)]
+ 25. Info: CrestronMonitor.exe # 2021-10-03 13:56:39  # Crestron applications already installed
+ 26. ProcessPostInstall: No \windows\postinstall.bat file
+ 27. ProcessPostInstall: No \windows\shipwithinstall.bat file
+ 28. UpdateImageConfig
+ 29. Info: nk.exe # 2021-10-03 13:56:41  # SDMemWriteCounterUpdate: InitialCounter is:420731, MaxHourCounter is:3334
+ 30. Info: CrestronMonitor.exe # 2021-10-03 13:56:41  #  Prompt is AV3, Deleting setup project html now. 
+ 31. Info: RouterTransportProcess.exe # 2021-10-03 13:56:42  # Attempting to determine DHCP Server's IP
+ 32. Info: ConsoleServiceCE.exe # 2021-10-03 13:56:44  #  CTP/SCTP and TELNET console disabled. 
+
+ 33. Info: RouterTransportProcess.exe # 2021-10-03 13:56:47  # Successfully Released adapter 
+ 34. Info: RouterTransportProcess.exe # 2021-10-03 13:56:48  # Successfully renewed adapter 
+ 35. Info: TLDM.exe # 2021-10-03 13:56:51  #  THAL loading now  .. 
+ 36. Info: TLDM.exe # 2021-10-03 13:57:02  #  TLDM Starting.. 
+  37. Info: TLDM.exe # 2021-10-03 13:57:02  #  LoadHardwareMapOnStartUp - Running on a AV3 
+ 38. Info: TLDM.exe # 2021-10-03 13:57:02  #  HostName read in is AV3-7FE25D60 
+ 39. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:06  #  SSL state read is True 
+
+ 40. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:06  #  Product Name is AV3 
+
+ 41. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:06  #  ReadInDomainNamesForAdapters: Unable to grab Domain Name at startup for LAN side 
+
+ 42. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:11  #  GetFirstInternalAdapterIndexThatHasAValidAddress - Could not find a valid adapter 
+
+ 43. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:11  #  IP Address not set. HostName resolution order not known - 1 
+
+ 44. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:11  #  TLDMInterfaceReadInMessageQueueSize - Queue size defaults to 500 
+ 45. Info: CIPCommandProcessor.exe # 2021-10-03 13:57:11  #  No valid address as yet - slave will start when we get one
+ 46. Info: CloudClient.exe # 2021-10-03 13:57:12  #  Model is PLATFORM_WIN_CE 
+
+ 47. Info: CloudClient.exe # 2021-10-03 13:57:12  # CloudUrl: https://api.my.crestron.com/api/Registration
+ 48. Info: CrestronTimerEventEngine.exe # 2021-10-03 13:57:13  # CrestronTimerEventEngine: Application initialized 
+ 49. Ok: AutoUpdateInterface.exe # 2021-10-03 13:57:15  # AutoUpdate Interface Starting
+ 50. Info: AutoUpdateInterface.exe # 2021-10-03 13:57:19  # SynchronizeScheduledEvents(): scheduling timer for Cloud Diagnostics autodiscovery, _CloudAutodiscoveryTimeInterval=
+ 51. Notice: CPHProcessor.exe # 2021-10-03 13:57:19  # CresStore: Connections OK to redis
+ 
+ 52. Notice: HydrogenManager.exe # 2021-10-03 13:57:35  # CresStore: Connections OK to redis
+ 
+ 53. Debug: HydrogenManager.exe # 2021-10-03 13:57:35  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+ 54. Info: webSocketToken.exe # 2021-10-03 13:57:38  #  CWS server created for getWebSocketToken
+ 55. Ok: SimplSharpPro.exe # 2021-10-03 13:57:50  # SimplSharpPro Version: 2.17.014
+ 56. Info: SimplSharpPro.exe # 2021-10-03 13:57:50  # Successfully registered the application with the TLDM 
+ 57. Notice: SimplSharpPro.exe # 2021-10-03 13:57:54  # Flash Policy Server - Starting Server.
+ 58. Notice: SimplSharpPro.exe # 2021-10-03 13:57:54  # Flash Policy Server - Server Started.
+ 59. Info: LogicEngine.exe [App 1] # 2021-10-03 13:57:59  # Loading program from \simpl\app01
+ 60. Info: LogicEngine.exe [App 1] # 2021-10-03 13:57:59  # Loading Program \simpl\app01\Bellow Simpl v.4.bin.
+ 61. Info: TLDM.exe # 2021-10-03 13:57:59  # RouterMonitorThreadCallbackRoutine: Router is now in application space 
+ 62. Info: CIPCommandProcessor.exe # 2021-10-03 13:58:11  #  Reading in IPTable now for App 1
+ 63. Warning: LogicEngine.exe [App 1] # 2021-10-03 13:58:13  # Cannot find any Control Crosspoint Routing symbols for Equipment Crosspoint Routing symbols to connect to.
+ 64. Error: CloudClient.exe # 2021-10-03 13:58:17  #  CloudClient Frame Response status : Cannot resolve host
+ 
+ 65. Notice: LogicEngine.exe # 2021-10-03 13:58:18  # **Program 1 Started**
+ 66. Info: splusmanagerapp.exe [App 1] # 2021-10-03 13:58:18  #  Application Id 1 - Unable to query for CS Mask. Opening on LAN side for 192.168.1.180 
+
+ 67. Info: splusmanagerapp.exe # 2021-10-03 13:58:18  #  Application Id 1 - Unable to query for EA_ALL_INTERNAL_ADAPTERS Mask. Opening on LAN side for 192.168.1.180 
+
+ 68. Notice: splusmanagerapp.exe [App 1] # 2021-10-03 13:58:18  # Module S-1.7.1 : Hunter_Douglas_Powerview_Hub at line 417: TCP Client. Unable to connect to TCP server 192.168.1.180
+ 69. Info: LogicEngine.exe [App 1] # 2021-10-03 13:58:18  #  Going to steady state now 
+ 70. Notice: TLDM.exe # 2021-10-03 13:58:19  #  Event rcvd is 8 
+ 71. Notice: CIPCommandProcessor.exe # 2021-10-03 13:58:20  # TCP Client  App 1 IP-ID 6: Unable to connect to TCP server (192.168.1.99:23)
+ 72. Info: CRESLOG.exe # 2021-10-03 13:58:20  # PersistentLog: Logging is started!
+ 73. Notice: splusmanagerapp.exe [App 1] # 2021-10-03 13:58:22  # Module S-1.7.1 : Hunter_Douglas_Powerview_Hub at line 417: TCP Client. Unable to connect to TCP server 192.168.1.180
+ 74. Debug: HydrogenManager.exe # 2021-10-03 13:58:23  # cWinRegHelper::GetRegistryValue - could not read value for proxy_port
+ 75. Notice: CIPCommandProcessor.exe # 2021-10-03 13:58:24  # TCP Client  App 1 IP-ID 6: Unable to connect to TCP server (192.168.1.99:23)
+ 76. Error: HydrogenManager.exe # 2021-10-03 13:58:25  # [..\source\Wince\HTTPProxy_sub.cpp:113] curl_easy_perform() failed on payload: Couldn't resolve host 'fc.crestron.io'
+ 
+ 77. Notice: splusmanagerapp.exe [App 1] # 2021-10-03 13:58:30  # Module S-1.7.1 : Hunter_Douglas_Powerview_Hub at line 417: TCP Client. Unable to connect to TCP server 192.168.1.180
+ 78. Notice: CIPCommandProcessor.exe # 2021-10-03 13:58:32  # TCP Client  App 1 IP-ID 6: Unable to connect to TCP server (192.168.1.99:23)
+ 79. Info: ConsoleServiceCE.exe # 2021-10-03 13:58:33  #  Updated console access levels.
+ 80. Info: CIPCommandProcessor.exe # 2021-10-03 13:58:33  #  Launching TCP server now 
+ 81. [1633269514:5000] N:  SSL ciphers: 'ECDHE-ECDSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES256-SHA384:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4:!HMAC_SHA1:!SHA1:!DHE-RSA-AES128-GCM-SHA256:!DHE-RSA-AES128-SHA256:!AES128-GCM-SHA256 82. [1633269514:5000] N:  Vhost 'default' using TLS mode
+ 83. [1633269514:5000] N:  SSL ECDH curve 'prime256v1'
+ 84. Notice: CIPCommandProcessor.exe # 2021-10-03 13:58:34  # Secure WebSocket server Sucessfully Created at port 49200
+ 85. [1633269515:5000] N:    vhost default: cert expiry: 371d
+ 86. Info: ConsoleServiceCE.exe # 2021-10-03 13:58:36  #  Updated console access levels.
+ 87. Error: RouterTransportProcess.exe # 2021-10-03 13:58:43  # Unable to determine DHCP Server's IP
+ 88. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  # Attempting to determine DHCP Server's IP
+ 89. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  # Attempt to determine DHCP Server's IP Succeeded. Address is 172.22.0.2
+ 90. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  #  Attempting to connect to (172.22.0.2)
+ 91. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  # RTP: Connected to Server (State to RS_HANDSHAKE)
+ 92. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  # 	 RS_HANDSHAKE to RS_WAIT_FOR_IF_MSG
+ 93. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  # 	 RS_WAIT_FOR_IF_MSG to RS_WAIT_FOR_VER_MSG
+ 94. Info: RouterTransportProcess.exe # 2021-10-03 13:58:48  # 	 RS_WAIT_FOR_VER_MSG to RS_CONFIGURING_ROUTER
+ 95. Info: RouterTransportProcess.exe # 2021-10-03 13:59:00  # 	 RCS_TIME Configured
+ 96. Info: RouterTransportProcess.exe # 2021-10-03 13:59:00  # 	 RCS_TIME To RCS_USER_PAT
+ 97. Info: RouterTransportProcess.exe # 2021-10-03 13:59:00  # 	 UserPAT Config Complete (0 ports)... move to RCS_PORT_FORWARD
+ 98. Info: RouterTransportProcess.exe # 2021-10-03 13:59:00  #  Grabbing g_PortForwardListCriticalSection here 
+ 99. Info: RouterTransportProcess.exe # 2021-10-03 13:59:00  # 	 PortFowrardConfig (Initial) RCS_PORT_FORWARD
+100. Info: RouterTransportProcess.exe # 2021-10-03 13:59:01  # 	 Port Forwarding Config Complete (2 ports)
+101. Info: RouterTransportProcess.exe # 2021-10-03 13:59:01  # 	 RCS_PORT_FORWARD To RCS_COMMIT_PORTS 
+102. Info: RouterTransportProcess.exe # 2021-10-03 13:59:01  # 	 RCS_COMMIT_PORTS To RCS_CONFIGURED 
+103. Info: RouterTransportProcess.exe # 2021-10-03 13:59:01  # 	 RS_CONFIGURING_ROUTER to RS_NORMAL
+104. Info: RouterTransportProcess.exe # 2021-10-03 13:59:01  # SendRouterConnectEvent: Router got connected
+105. Info: RouterTransportProcess.exe # 2021-10-03 13:59:01  #  Leaving g_PortForwardListCriticalSection here 
+106. Info: CIPCommandProcessor.exe # 2021-10-03 13:59:03  # Got Router connected event 
+107. Notice: CIPCommandProcessor.exe # 2021-10-03 13:59:04  # Link established on CS
+108. Info: TLDM.exe # 2021-10-03 13:59:07  #  Router got Connected 
+109. Notice: splusmanagerapp.exe [App 1] # 2021-10-03 13:59:07  # Module S-1.7.1 : Hunter_Douglas_Powerview_Hub at line 417: TCP Client. Unable to connect to TCP server 192.168.1.180
+110. mDNSPlatformGetRouterInterface: IP address: 192.168.1.175
+111. mDNSPlatformGetRouterInterface: IP mask: 255.255.255.0.
+112. Info: CIPCommandProcessor.exe # 2021-10-03 13:59:08  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+113. Info: SimplSharpPro.exe # 2021-10-03 13:59:08  #  Router is configured - sending events
+114. Notice: CIPCommandProcessor.exe # 2021-10-03 13:59:09  # TCP Client  App 1 IP-ID 6: Unable to connect to TCP server (192.168.1.99:23)
+115. Notice: CIPCommandProcessor.exe # 2021-10-03 13:59:10  # Link established on LAN
+116. Info: CIPCommandProcessor.exe # 2021-10-03 13:59:10  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+117. Notice: CIPCommandProcessor.exe # 2021-10-03 13:59:10  # New Address 192.168.1.175 obtained from 192.168.1.1
+118. mDNSPlatformGetRouterInterface: IP address: 192.168.1.175
+119. mDNSPlatformGetRouterInterface: IP mask: 255.255.255.0.
+120. Info: CIPCommandProcessor.exe # 2021-10-03 13:59:15  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+121. Info: CIPCommandProcessor.exe # 2021-10-03 13:59:17  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+122. Info: CIPCommandProcessor.exe # 2021-10-03 13:59:25  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+123. Warning: CPHProcessor.exe # 2021-10-03 14:03:36  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+124. Warning: CPHProcessor.exe # 2021-10-03 14:15:12  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+125. Warning: CPHProcessor.exe # 2021-10-03 14:29:07  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+126. Warning: CPHProcessor.exe # 2021-10-03 14:40:02  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+127. Warning: CPHProcessor.exe # 2021-10-03 14:52:46  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+128. Warning: CPHProcessor.exe # 2021-10-03 15:04:56  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+129. Warning: CPHProcessor.exe # 2021-10-03 15:17:35  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+130. Warning: CPHProcessor.exe # 2021-10-03 15:31:59  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+131. Warning: CPHProcessor.exe # 2021-10-03 15:44:22  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+132. Warning: CPHProcessor.exe # 2021-10-03 15:58:51  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+133. Exception 'Data Abort' (0x4): Thread-Id=0be401a6(pth=c0a84d38), Proc-Id=00400002(pprc=84ae95e0) 'NK.EXE', VM-active=0b8b00ae(pprc=c09a62e8) 'splusmanagerapp.exe'
+134. PC=efac79b0(afd.dll+0x000079b0) RA=d42dfd48(???+0xd42dfd48) SP=d3fcfd10, BVA=00000004
+135. Error: nk.exe # 2021-10-03 16:06:36  # WDG: \simpl\app01 shutting down unexpectedly. Do Not Start=1
+136. Error: LogicEngine.exe [App 1] # 2021-10-03 16:06:36  #  Simpl Plus Manager terminated. Restarting program 
+137. Error: CIPCommandProcessor.exe # 2021-10-03 16:06:36  # SendCresnetPacketToTLDMFromESA fails for 1 
+
+138. Error: CIPCommandProcessor.exe # 2021-10-03 16:06:36  # SendCresnetPacketToTLDMFromESA fails for 1 
+
+139. Error: CIPCommandProcessor.exe # 2021-10-03 16:06:37  # SendCresnetPacketToTLDMFromESA fails for 1 
+
+140. Error: CIPCommandProcessor.exe # 2021-10-03 16:06:37  # SendCresnetPacketToTLDMFromESA fails for 1 
+
+141. Notice: TLDM.exe # 2021-10-03 16:06:40  # **Program 1 Stopped**
+142. Info: LogicEngine.exe [App 1] # 2021-10-03 16:06:40  # Logic Engine exiting.
+143. Error: nk.exe # 2021-10-03 16:06:40  # WDG: LogicEngine shutting down unexpectedly. Do Not Start=0
+144. Warning: ConsoleServiceCE.exe # 2021-10-03 16:06:44  # Cleaning up commands from previous instance 1 that did not shutdown correctly.
+145. Info: LogicEngine.exe [App 1] # 2021-10-03 16:06:49  # Loading program from \simpl\app01
+146. Info: LogicEngine.exe [App 1] # 2021-10-03 16:06:49  # Loading Program \simpl\app01\Bellow Simpl v.4.bin.
+147. Info: CIPCommandProcessor.exe # 2021-10-03 16:07:02  #  Reading in IPTable now for App 1
+148. Warning: LogicEngine.exe [App 1] # 2021-10-03 16:07:04  # Cannot find any Control Crosspoint Routing symbols for Equipment Crosspoint Routing symbols to connect to.
+149. Info: CIPCommandProcessor.exe # 2021-10-03 16:07:08  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+150. Info: CIPCommandProcessor.exe # 2021-10-03 16:07:08  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+151. Info: CIPCommandProcessor.exe # 2021-10-03 16:07:08  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+152. Info: CIPCommandProcessor.exe # 2021-10-03 16:07:08  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+153. Info: CIPCommandProcessor.exe # 2021-10-03 16:07:08  #  DRCRM - Data to send back in JSON format is {"CH5MobileTrialDays":53} 
+
+154. Notice: LogicEngine.exe # 2021-10-03 16:07:08  # **Program 1 Started**
+155. Info: splusmanagerapp.exe # 2021-10-03 16:07:09  #  Application Id 1 - Unable to query for EA_ALL_INTERNAL_ADAPTERS Mask. Opening on LAN side for 192.168.1.180 
+
+156. Info: LogicEngine.exe [App 1] # 2021-10-03 16:07:09  #  Going to steady state now 
+157. Notice: TLDM.exe # 2021-10-03 16:07:10  #  Event rcvd is 8 
+158. Error: SSHD.exe # 2021-10-03 16:11:02  # ValidateLocalUser() failed: error opening user account (Administrator).
+159. Warning: CPHProcessor.exe # 2021-10-03 16:12:04  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+160. Error: CIPCommandProcessor.exe # 2021-10-03 16:14:02  #  Error - Socket is NOT ready for send on port 50446.
+161. Error: CIPCommandProcessor.exe # 2021-10-03 16:14:02  #  Error - Socket is NOT ready for send on port 50443.
+162. Error: CIPCommandProcessor.exe # 2021-10-03 16:15:16  #  Error - Socket is NOT ready for send on port 50449.
+163. Warning: CPHProcessor.exe # 2021-10-03 16:25:23  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+164. Warning: CPHProcessor.exe # 2021-10-03 16:38:06  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+165. Exception 'Data Abort' (0x4): Thread-Id=0ce01c2a(pth=c0999000), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+166. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=038cfc9c, BVA=00000000
+167. Warning: CPHProcessor.exe # 2021-10-03 16:51:40  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+168. Error: LogicEngine.exe [App 1] # 2021-10-03 17:01:16  # Logic could not be solved within 1500 waves.
+169. Warning: CPHProcessor.exe # 2021-10-03 17:06:20  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+170. Error: LogicEngine.exe [App 1] # 2021-10-03 17:07:08  # Logic could not be solved within 1500 waves.
+171. Warning: CPHProcessor.exe # 2021-10-03 17:19:44  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+172. Warning: CPHProcessor.exe # 2021-10-03 17:30:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+173. Exception 'Data Abort' (0x4): Thread-Id=0ced2a6a(pth=c0ab3180), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+174. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=038cfc9c, BVA=00000000
+175. Warning: CPHProcessor.exe # 2021-10-03 17:42:05  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+176. Warning: CPHProcessor.exe # 2021-10-03 17:54:13  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+177. Warning: CPHProcessor.exe # 2021-10-03 18:06:55  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+178. Warning: CPHProcessor.exe # 2021-10-03 18:18:47  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+179. Warning: CPHProcessor.exe # 2021-10-03 18:33:01  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+180. Warning: CPHProcessor.exe # 2021-10-03 18:45:27  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+181. Warning: CPHProcessor.exe # 2021-10-03 18:59:12  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+182. Warning: CPHProcessor.exe # 2021-10-03 19:13:10  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+183. Warning: CPHProcessor.exe # 2021-10-03 19:25:27  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+184. Warning: CPHProcessor.exe # 2021-10-03 19:36:49  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+185. Warning: CPHProcessor.exe # 2021-10-03 19:51:26  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+186. Warning: CPHProcessor.exe # 2021-10-03 20:06:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+187. Warning: CPHProcessor.exe # 2021-10-03 20:19:08  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+188. Warning: CPHProcessor.exe # 2021-10-03 20:30:46  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+189. Warning: CPHProcessor.exe # 2021-10-03 20:42:41  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+190. Warning: CPHProcessor.exe # 2021-10-03 20:56:29  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+191. Warning: CPHProcessor.exe # 2021-10-03 21:10:17  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+192. Warning: CPHProcessor.exe # 2021-10-03 21:21:12  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+193. Info: CIPCommandProcessor.exe # 2021-10-03 21:33:56  #  SendGatewayResponse: Socket getting closed because of blocking timeout or the socket is not connected
+
+194. Info: CIPCommandProcessor.exe # 2021-10-03 21:33:56  #  Sending response to 192.168.1.173:50559 failed.
+195. Exception 'Data Abort' (0x4): Thread-Id=0de65596(pth=c0ab5270), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+196. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=0395fc9c, BVA=00000000
+197. Warning: CPHProcessor.exe # 2021-10-03 21:34:14  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+198. Error: SSHD.exe # 2021-10-03 21:38:26  # ValidateLocalUser() failed: error opening user account (root).
+199. Error: SSHD.exe # 2021-10-03 21:38:26  # ValidateLocalUser() failed: error opening user account (root).
+200. Warning: CPHProcessor.exe # 2021-10-03 21:47:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+201. Warning: CPHProcessor.exe # 2021-10-03 21:59:28  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+202. Warning: CPHProcessor.exe # 2021-10-03 22:13:26  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+203. Warning: CPHProcessor.exe # 2021-10-03 22:24:53  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+204. Warning: CPHProcessor.exe # 2021-10-03 22:35:40  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+205. Warning: CPHProcessor.exe # 2021-10-03 22:45:52  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+206. Warning: CPHProcessor.exe # 2021-10-03 22:59:48  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+207. Warning: CPHProcessor.exe # 2021-10-03 23:12:21  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+208. Warning: CPHProcessor.exe # 2021-10-03 23:25:07  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+209. Warning: CPHProcessor.exe # 2021-10-03 23:35:15  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+210. Warning: CPHProcessor.exe # 2021-10-03 23:48:56  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+211. Warning: CPHProcessor.exe # 2021-10-03 23:59:20  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+212. Warning: CPHProcessor.exe # 2021-10-04 00:11:28  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+213. Warning: CPHProcessor.exe # 2021-10-04 00:22:39  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+214. Warning: CPHProcessor.exe # 2021-10-04 00:33:06  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+215. Warning: CPHProcessor.exe # 2021-10-04 00:44:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+216. Warning: CPHProcessor.exe # 2021-10-04 00:56:57  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+217. Warning: CPHProcessor.exe # 2021-10-04 01:10:12  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+218. Warning: CPHProcessor.exe # 2021-10-04 01:23:52  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+219. Warning: CPHProcessor.exe # 2021-10-04 01:33:59  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+220. Warning: CPHProcessor.exe # 2021-10-04 01:47:26  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+221. Warning: CPHProcessor.exe # 2021-10-04 01:57:40  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+222. Warning: CPHProcessor.exe # 2021-10-04 02:11:15  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+223. Warning: CPHProcessor.exe # 2021-10-04 02:25:56  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+224. Warning: CPHProcessor.exe # 2021-10-04 02:39:10  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+225. Warning: CPHProcessor.exe # 2021-10-04 02:49:56  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+226. Warning: CPHProcessor.exe # 2021-10-04 03:03:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+227. Warning: CPHProcessor.exe # 2021-10-04 03:16:11  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+228. Warning: CPHProcessor.exe # 2021-10-04 03:26:30  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+229. Warning: CPHProcessor.exe # 2021-10-04 03:38:23  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+230. Warning: CPHProcessor.exe # 2021-10-04 03:51:27  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+231. Warning: CPHProcessor.exe # 2021-10-04 04:03:32  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+232. Warning: CPHProcessor.exe # 2021-10-04 04:17:23  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+233. Warning: CPHProcessor.exe # 2021-10-04 04:31:37  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+234. Warning: CPHProcessor.exe # 2021-10-04 04:42:05  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+235. Warning: CPHProcessor.exe # 2021-10-04 04:56:53  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+236. Warning: CPHProcessor.exe # 2021-10-04 05:11:53  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+237. Warning: CPHProcessor.exe # 2021-10-04 05:24:24  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+238. Warning: CPHProcessor.exe # 2021-10-04 05:34:58  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+239. Warning: CPHProcessor.exe # 2021-10-04 05:49:00  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+240. Warning: CPHProcessor.exe # 2021-10-04 06:03:10  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+241. Warning: CPHProcessor.exe # 2021-10-04 06:16:46  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+242. Warning: CPHProcessor.exe # 2021-10-04 06:31:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+243. Warning: CPHProcessor.exe # 2021-10-04 06:42:27  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+244. Warning: CPHProcessor.exe # 2021-10-04 06:57:27  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+245. Warning: CPHProcessor.exe # 2021-10-04 07:10:41  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+246. Warning: CPHProcessor.exe # 2021-10-04 07:21:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+247. Warning: CPHProcessor.exe # 2021-10-04 07:36:05  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+248. Error: LogicEngine.exe [App 1] # 2021-10-04 07:46:19  # Logic could not be solved within 1500 waves.
+249. Warning: CPHProcessor.exe # 2021-10-04 07:49:39  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+250. Info: CIPCommandProcessor.exe # 2021-10-04 07:50:27  #  SendGatewayResponse: Socket getting closed because of blocking timeout or the socket is not connected
+
+251. Error: SSHD.exe # 2021-10-04 07:56:45  # ValidateLocalUser() failed: error opening user account (MGR).
+252. Warning: CPHProcessor.exe # 2021-10-04 08:03:43  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+253. Error: LogicEngine.exe [App 1] # 2021-10-04 08:04:38  # Logic could not be solved within 1500 waves.
+254. Error: LogicEngine.exe [App 1] # 2021-10-04 08:05:33  # Logic could not be solved within 1500 waves.
+255. Error: LogicEngine.exe [App 1] # 2021-10-04 08:05:45  # Logic could not be solved within 1500 waves.
+256. Warning: CPHProcessor.exe # 2021-10-04 08:16:18  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+257. Warning: CPHProcessor.exe # 2021-10-04 08:30:59  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+258. Warning: CPHProcessor.exe # 2021-10-04 08:45:30  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+259. Warning: CPHProcessor.exe # 2021-10-04 08:56:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+260. Warning: CPHProcessor.exe # 2021-10-04 09:08:12  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+261. Warning: CPHProcessor.exe # 2021-10-04 09:20:50  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+262. Warning: CPHProcessor.exe # 2021-10-04 09:34:21  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+263. Warning: CPHProcessor.exe # 2021-10-04 09:46:06  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+264. Warning: CPHProcessor.exe # 2021-10-04 09:56:22  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+265. Warning: CPHProcessor.exe # 2021-10-04 10:08:46  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+266. Warning: CPHProcessor.exe # 2021-10-04 10:19:28  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+267. Warning: CPHProcessor.exe # 2021-10-04 10:30:21  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+268. Warning: CPHProcessor.exe # 2021-10-04 10:42:37  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+269. Warning: CPHProcessor.exe # 2021-10-04 10:54:44  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+270. Warning: CPHProcessor.exe # 2021-10-04 11:06:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+271. Warning: CPHProcessor.exe # 2021-10-04 11:20:25  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+272. Error: SSHD.exe # 2021-10-04 11:27:59  # ValidateLocalUser() failed: error opening user account (pi).
+273. Error: SSHD.exe # 2021-10-04 11:27:59  # ValidateLocalUser() failed: error opening user account (pi).
+274. Warning: CPHProcessor.exe # 2021-10-04 11:33:08  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+275. Warning: CPHProcessor.exe # 2021-10-04 11:46:30  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+276. Warning: CPHProcessor.exe # 2021-10-04 11:58:36  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+277. Warning: CPHProcessor.exe # 2021-10-04 12:13:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+278. Warning: CPHProcessor.exe # 2021-10-04 12:27:41  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+279. Warning: CPHProcessor.exe # 2021-10-04 12:41:00  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+280. Warning: CPHProcessor.exe # 2021-10-04 12:53:00  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+281. Warning: CPHProcessor.exe # 2021-10-04 13:03:42  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+282. Warning: CPHProcessor.exe # 2021-10-04 13:18:21  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+283. Warning: CPHProcessor.exe # 2021-10-04 13:32:52  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+284. Warning: CPHProcessor.exe # 2021-10-04 13:46:39  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+285. [1633355914:5000] N:    vhost default: cert expiry: 370d
+286. Warning: CPHProcessor.exe # 2021-10-04 13:59:49  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+287. Warning: CPHProcessor.exe # 2021-10-04 14:14:44  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+288. Warning: CPHProcessor.exe # 2021-10-04 14:26:49  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+289. Warning: CPHProcessor.exe # 2021-10-04 14:39:22  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+290. Warning: CPHProcessor.exe # 2021-10-04 14:49:26  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+291. Warning: CPHProcessor.exe # 2021-10-04 15:01:04  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+292. Warning: CPHProcessor.exe # 2021-10-04 15:12:02  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+293. Error: LogicEngine.exe [App 1] # 2021-10-04 15:22:32  # Logic could not be solved within 1500 waves.
+294. Error: LogicEngine.exe [App 1] # 2021-10-04 15:22:37  # Logic could not be solved within 1500 waves.
+295. Warning: CPHProcessor.exe # 2021-10-04 15:26:48  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+296. Warning: CPHProcessor.exe # 2021-10-04 15:37:54  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+297. Warning: CPHProcessor.exe # 2021-10-04 15:50:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+298. Error: LogicEngine.exe [App 1] # 2021-10-04 16:00:57  # Logic could not be solved within 1500 waves.
+299. Warning: CPHProcessor.exe # 2021-10-04 16:04:38  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+300. Error: SSHD.exe # 2021-10-04 16:10:04  # ValidateLocalUser() failed: error opening user account (administrator).
+301. Error: SSHD.exe # 2021-10-04 16:10:04  # ValidateLocalUser() failed: error opening user account (administrator).
+302. Error: SSHD.exe # 2021-10-04 16:10:04  # ValidateLocalUser() failed: error opening user account (administrator).
+303. Error: LogicEngine.exe [App 1] # 2021-10-04 16:18:52  # Logic could not be solved within 1500 waves.
+304. Warning: CPHProcessor.exe # 2021-10-04 16:19:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+305. Error: LogicEngine.exe [App 1] # 2021-10-04 16:19:32  # Logic could not be solved within 1500 waves.
+306. Error: LogicEngine.exe [App 1] # 2021-10-04 16:20:29  # Logic could not be solved within 1500 waves.
+307. Error: LogicEngine.exe [App 1] # 2021-10-04 16:21:00  # Logic could not be solved within 1500 waves.
+308. Error: LogicEngine.exe [App 1] # 2021-10-04 16:21:23  # Logic could not be solved within 1500 waves.
+309. Error: LogicEngine.exe [App 1] # 2021-10-04 16:21:53  # Logic could not be solved within 1500 waves.
+310. Warning: CPHProcessor.exe # 2021-10-04 16:30:01  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+311. Warning: CPHProcessor.exe # 2021-10-04 16:40:34  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+312. Warning: CPHProcessor.exe # 2021-10-04 16:50:49  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+313. Warning: CPHProcessor.exe # 2021-10-04 17:03:53  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+314. Exception 'Data Abort' (0x4): Thread-Id=117304be(pth=c0ab4750), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+315. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=0322fc9c, BVA=00000000
+316. Warning: CPHProcessor.exe # 2021-10-04 17:16:02  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+317. Error: LogicEngine.exe [App 1] # 2021-10-04 17:21:54  # Logic could not be solved within 1500 waves.
+318. Error: LogicEngine.exe [App 1] # 2021-10-04 17:27:37  # Logic could not be solved within 1500 waves.
+319. Error: LogicEngine.exe [App 1] # 2021-10-04 17:27:46  # Logic could not be solved within 1500 waves.
+320. Warning: CPHProcessor.exe # 2021-10-04 17:28:36  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+321. Warning: CPHProcessor.exe # 2021-10-04 17:40:40  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+322. Error: LogicEngine.exe [App 1] # 2021-10-04 17:41:37  # Logic could not be solved within 1500 waves.
+323. Error: LogicEngine.exe [App 1] # 2021-10-04 17:43:15  # Logic could not be solved within 1500 waves.
+324. Warning: CPHProcessor.exe # 2021-10-04 17:51:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+325. Warning: CPHProcessor.exe # 2021-10-04 18:06:09  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+326. Error: LogicEngine.exe [App 1] # 2021-10-04 18:12:24  # Logic could not be solved within 1500 waves.
+327. Warning: CPHProcessor.exe # 2021-10-04 18:19:36  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+328. Warning: CPHProcessor.exe # 2021-10-04 18:29:59  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+329. Warning: CPHProcessor.exe # 2021-10-04 18:44:52  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+330. Warning: CPHProcessor.exe # 2021-10-04 18:55:31  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+331. Warning: CPHProcessor.exe # 2021-10-04 19:07:21  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+332. Error: SSHD.exe # 2021-10-04 19:10:06  # ValidateLocalUser() failed: error opening user account (3comcso).
+333. Warning: CPHProcessor.exe # 2021-10-04 19:19:48  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+334. Error: LogicEngine.exe [App 1] # 2021-10-04 19:24:25  # Logic could not be solved within 1500 waves.
+335. Error: LogicEngine.exe [App 1] # 2021-10-04 19:25:36  # Logic could not be solved within 1500 waves.
+336. Warning: CPHProcessor.exe # 2021-10-04 19:34:42  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+337. Warning: CPHProcessor.exe # 2021-10-04 19:47:02  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+338. Error: LogicEngine.exe [App 1] # 2021-10-04 19:54:28  # Logic could not be solved within 1500 waves.
+339. Error: LogicEngine.exe [App 1] # 2021-10-04 19:54:55  # Logic could not be solved within 1500 waves.
+340. Error: LogicEngine.exe [App 1] # 2021-10-04 19:55:54  # Logic could not be solved within 1500 waves.
+341. Warning: CPHProcessor.exe # 2021-10-04 19:59:36  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+342. Error: SSHD.exe # 2021-10-04 20:02:56  # ValidateLocalUser() failed: error opening user account (oracle).
+343. Warning: CPHProcessor.exe # 2021-10-04 20:13:28  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+344. Error: LogicEngine.exe [App 1] # 2021-10-04 20:24:34  # Logic could not be solved within 1500 waves.
+345. Warning: CPHProcessor.exe # 2021-10-04 20:27:34  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+346. Exception 'Data Abort' (0x4): Thread-Id=10bc1712(pth=c0aa4450), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+347. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=0396fc9c, BVA=00000000
+348. Warning: CPHProcessor.exe # 2021-10-04 20:42:32  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+349. Error: LogicEngine.exe [App 1] # 2021-10-04 20:46:40  # Logic could not be solved within 1500 waves.
+350. Warning: CPHProcessor.exe # 2021-10-04 20:54:48  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+351. Warning: CPHProcessor.exe # 2021-10-04 21:05:10  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+352. Error: SSHD.exe # 2021-10-04 21:14:30  # ValidateLocalUser() failed: error opening user account (pi).
+353. Warning: CPHProcessor.exe # 2021-10-04 21:15:37  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+354. Warning: CPHProcessor.exe # 2021-10-04 21:26:43  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+355. Error: LogicEngine.exe [App 1] # 2021-10-04 21:36:35  # Logic could not be solved within 1500 waves.
+356. Error: LogicEngine.exe [App 1] # 2021-10-04 21:36:53  # Logic could not be solved within 1500 waves.
+357. Info: ConsoleServiceCE.exe # 2021-10-04 21:38:40  # HandleRIFUnblockingIPCommand - Failed To Set UNBLOCK_IP
+358. Warning: CPHProcessor.exe # 2021-10-04 21:41:33  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+359. Warning: CPHProcessor.exe # 2021-10-04 21:54:30  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+360. Warning: CPHProcessor.exe # 2021-10-04 22:08:14  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+361. Warning: CPHProcessor.exe # 2021-10-04 22:20:13  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+362. Warning: CPHProcessor.exe # 2021-10-04 22:33:14  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+363. Warning: CPHProcessor.exe # 2021-10-04 22:46:42  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+364. Warning: CPHProcessor.exe # 2021-10-04 22:57:05  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+365. Warning: CPHProcessor.exe # 2021-10-04 23:09:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+366. Warning: CPHProcessor.exe # 2021-10-04 23:23:56  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+367. Warning: CPHProcessor.exe # 2021-10-04 23:36:00  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+368. Warning: CPHProcessor.exe # 2021-10-04 23:46:50  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+369. Warning: CPHProcessor.exe # 2021-10-04 23:57:01  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+370. Warning: CPHProcessor.exe # 2021-10-05 00:10:54  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+371. Warning: CPHProcessor.exe # 2021-10-05 00:22:50  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+372. Warning: CPHProcessor.exe # 2021-10-05 00:36:05  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+373. Warning: CPHProcessor.exe # 2021-10-05 00:46:53  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+374. Warning: CPHProcessor.exe # 2021-10-05 01:01:23  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+375. Warning: CPHProcessor.exe # 2021-10-05 01:11:52  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+376. Warning: CPHProcessor.exe # 2021-10-05 01:23:20  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+377. Error: SSHD.exe # 2021-10-05 01:26:27  # ValidateLocalUser() failed: error opening user account (IntraStack).
+378. Warning: CPHProcessor.exe # 2021-10-05 01:36:00  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+379. Warning: CPHProcessor.exe # 2021-10-05 01:47:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+380. Warning: CPHProcessor.exe # 2021-10-05 02:02:44  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+381. Warning: CPHProcessor.exe # 2021-10-05 02:15:52  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+382. Warning: CPHProcessor.exe # 2021-10-05 02:26:44  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+383. Warning: CPHProcessor.exe # 2021-10-05 02:38:26  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+384. Warning: CPHProcessor.exe # 2021-10-05 02:49:46  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+385. Warning: CPHProcessor.exe # 2021-10-05 03:04:26  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+386. Warning: CPHProcessor.exe # 2021-10-05 03:17:46  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+387. Warning: CPHProcessor.exe # 2021-10-05 03:32:44  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+388. Warning: CPHProcessor.exe # 2021-10-05 03:43:22  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+389. Warning: CPHProcessor.exe # 2021-10-05 03:56:28  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+390. Warning: CPHProcessor.exe # 2021-10-05 04:09:45  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+391. Warning: CPHProcessor.exe # 2021-10-05 04:19:51  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+392. Warning: CPHProcessor.exe # 2021-10-05 04:31:29  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+393. Warning: CPHProcessor.exe # 2021-10-05 04:41:41  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+394. Warning: CPHProcessor.exe # 2021-10-05 04:56:35  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+395. Warning: CPHProcessor.exe # 2021-10-05 05:06:38  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+396. Warning: CPHProcessor.exe # 2021-10-05 05:18:47  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+397. Warning: CPHProcessor.exe # 2021-10-05 05:29:16  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+398. Warning: CPHProcessor.exe # 2021-10-05 05:41:36  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+399. Warning: CPHProcessor.exe # 2021-10-05 05:51:40  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+400. Warning: CPHProcessor.exe # 2021-10-05 06:04:09  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+401. Warning: CPHProcessor.exe # 2021-10-05 06:18:20  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+402. Warning: CPHProcessor.exe # 2021-10-05 06:33:09  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+403. Warning: CPHProcessor.exe # 2021-10-05 06:46:14  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+404. Warning: CPHProcessor.exe # 2021-10-05 06:59:10  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+405. Warning: CPHProcessor.exe # 2021-10-05 07:10:19  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+406. Warning: CPHProcessor.exe # 2021-10-05 07:21:53  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+407. Warning: CPHProcessor.exe # 2021-10-05 07:35:50  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+408. Error: LogicEngine.exe [App 1] # 2021-10-05 07:47:35  # Logic could not be solved within 1500 waves.
+409. Warning: CPHProcessor.exe # 2021-10-05 07:50:38  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+410. Error: LogicEngine.exe [App 1] # 2021-10-05 07:51:19  # Logic could not be solved within 1500 waves.
+411. Exception 'Data Abort' (0x4): Thread-Id=103656b2(pth=c0a83b08), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+412. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=038dfc9c, BVA=00000000
+413. Exception 'Data Abort' (0x4): Thread-Id=10d1587a(pth=c0aa1a20), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+414. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=0396fc9c, BVA=00000000
+415. Exception 'Data Abort' (0x4): Thread-Id=11fc5722(pth=c0ab4000), Proc-Id=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe', VM-active=09c30042(pprc=c08f7930) 'CIPCommandProcessor.exe'
+416. PC=0030dab4(???+0x0030dab4) RA=0030daa8(???+0x0030daa8) SP=038dfc9c, BVA=00000000
+417. Notice: ConsoleServiceCE.exe # 2021-10-05 07:55:52  # SHELL Connection from: 192.168.1.217 
+418. Error: LogicEngine.exe [App 1] # 2021-10-05 07:56:34  # Logic could not be solved within 1500 waves.
+419. Error: LogicEngine.exe [App 1] # 2021-10-05 07:56:59  # Logic could not be solved within 1500 waves.
+420. Warning: CPHProcessor.exe # 2021-10-05 08:04:05  # Buffer doesn't have Device Member in the Telemetry Update and payload is {"Actions":null}
+421. Error: LogicEngine.exe [App 1] # 2021-10-05 08:05:05  # Logic could not be solved within 1500 waves.
+422. Error: LogicEngine.exe [App 1] # 2021-10-05 08:05:41  # Logic could not be solved within 1500 waves.
+423. Error: LogicEngine.exe [App 1] # 2021-10-05 08:06:03  # Logic could not be solved within 1500 waves.
+424. Error: LogicEngine.exe [App 1] # 2021-10-05 08:06:26  # Logic could not be solved within 1500 waves.
+425. Error: LogicEngine.exe [App 1] # 2021-10-05 08:06:33  # Logic could not be solved within 1500 waves.
+426. Error: LogicEngine.exe [App 1] # 2021-10-05 08:06:45  # Logic could not be solved within 1500 waves.
+427. Error: LogicEngine.exe [App 1] # 2021-10-05 08:06:53  # Logic could not be solved within 1500 waves.
+ Total Msgs Logged = 427
+ END OF SYSTEM LOG
+

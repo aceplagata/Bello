@@ -1,0 +1,18 @@
+<Device Model="AV3">
+   <Network Type="Cresnet" Id="04">
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="03" Name="Bsment"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="04" Name="Ground Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="05" Name="Basement"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="06" Name="Ground Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="07" Name="Second Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="08" Name="Second Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="09" Name="Second Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="0A" Name="Second Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="0B" Name="Second Floor"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="0C" Name="Led Lights"/>
+      <Device Model="CLX-4HSW4" DeviceId="0D"/>
+      <Device Model="CLX-4HSW4" DeviceId="0E"/>
+      <Device Model="C2N-CBD-P" DeviceId="10"/>
+   </Network>
+   <Network Type="Ethernet" Id="05"/>
+</Device>

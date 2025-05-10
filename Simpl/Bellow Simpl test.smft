@@ -1,0 +1,111 @@
+<Device Model="CP4">
+   <Network Type="Cresnet" Id="01">
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="03" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="04" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="05" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="06" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="07" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="08" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="09" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="0A" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="0B" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-2DIMU8,CLX-2DIMU8-277,CLXI-2DIMU8,CLXI-2DIMU8-277" DeviceId="0C" Name="CLX-2DIMU8"/>
+      <Device Model="CLX-4HSW4" DeviceId="0D"/>
+      <Device Model="CLX-4HSW4" DeviceId="0E"/>
+      <Device Model="C2N-CBD-P" DeviceId="10" Name="GF Entrance "/>
+      <Device Model="C2N-CBD-P" DeviceId="11" Name="GF Living Room"/>
+      <Device Model="C2N-CBD-P" DeviceId="12" Name="GF Sitting Room"/>
+      <Device Model="C2N-CBD-P" DeviceId="13" Name="GF Stairs"/>
+      <Device Model="C2N-CBD-P" DeviceId="14" Name="GF Office"/>
+      <Device Model="C2N-CBD-P" DeviceId="15" Name="SF Bed 2 Bathroom"/>
+      <Device Model="C2N-CBD-P" DeviceId="16" Name="SF Hallway Main Bath"/>
+      <Device Model="C2N-CBD-P" DeviceId="17" Name="SF Bed 4 Door"/>
+      <Device Model="C2N-CBD-P" DeviceId="18" Name="SF Bed 2 Door"/>
+      <Device Model="C2N-CBD-P" DeviceId="19" Name="SF MB Door"/>
+      <Device Model="C2N-CBD-P" DeviceId="20" Name="SF Bed 3 Door"/>
+      <Device Model="C2N-CBD-P" DeviceId="21" Name="SF Bed 2 Sidebed"/>
+      <Device Model="C2N-CBD-P" DeviceId="22" Name="SF Bed 4 Sidebed"/>
+      <Device Model="C2N-CBD-P" DeviceId="23" Name="SF MB Ensuite"/>
+      <Device Model="C2N-CBD-P" DeviceId="24" Name="SF MB Left Side"/>
+      <Device Model="C2N-CBD-P" DeviceId="26" Name="SF 2nd floor Main Bathroom"/>
+      <Device Model="C2N-CBD-P" DeviceId="27" Name="SF Bed 3 SideBed"/>
+      <Device Model="C2N-CBD-P" DeviceId="28" Name="SF Hallway MB"/>
+      <Device Model="C2N-CBD-P" DeviceId="29" Name="SF MB Right Side"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="30" Name="Main Bath 2nd FLR"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="31" Name="Hallway Front Bed 3"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="32" Name="2nd Bed Bathroom"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="33" Name="Main Floor Powder"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="34" Name="Hallway Front Bed 4"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="35" Name="MF Closet Mid"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="36" Name="MF Closet Right"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="37" Name="MF Closet Left"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="38" Name="Office"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="39" Name="Hallway Front MB"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="40" Name="BSMT Bathroom"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="41" Name="BSMT Front Stair"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="42" Name="Master Ensuite"/>
+      <Device Model="GLS-OIRLCL-C-CN" DeviceId="43" Name="Master Walkin Closet"/>
+      <Device Model="C2N-CBD-P" DeviceId="45" Name="GF Kitchen Island"/>
+      <Device Model="C2N-CBD-P" DeviceId="46" Name="GF Pantry"/>
+      <Device Model="C2N-CBD-P" DeviceId="47" Name="GF Laundry Near Garage"/>
+      <Device Model="C2N-CBD-P" DeviceId="48" Name="GF Powder Room"/>
+      <Device Model="C2N-CBD-P" DeviceId="49" Name="GF Laundry"/>
+      <Device Model="C2N-CBD-P" DeviceId="4A" Name="Garage"/>
+      <Device Model="C2N-CBD-P" DeviceId="50" Name="BSMT Playroom"/>
+      <Device Model="C2N-CBD-P" DeviceId="51" Name="BSMT Center"/>
+      <Device Model="C2N-CBD-P" DeviceId="52" Name="BSMT stock room"/>
+      <Device Model="C2N-CBD-P" DeviceId="53" Name="BSMT kitchen"/>
+      <Device Model="C2N-CBD-P" DeviceId="54" Name="BSMT stair"/>
+      <Device Model="C2N-CBD-P" DeviceId="55" Name="BSMT Door"/>
+      <Device Model="C2N-CBD-P" DeviceId="56" Name="BSMT Bathroom"/>
+      <Device Model="C2N-CBD-P" DeviceId="57" Name="BSMT guest room"/>
+      <Device Model="C2N-CBD-P" DeviceId="58" Name="GF Stair"/>
+      <Device Model="DIN-8SW8-I" DeviceId="95"/>
+   </Network>
+   <Network Type="Ethernet" Id="02">
+      <Device Model="C2N-AMP-6X100" DeviceId="04" Name="First"/>
+      <Device Model="C2N-AMP-6X100" DeviceId="05" Name="Second"/>
+      <Device Model="CEN-GWEXER" DeviceId="07" Name="SF">
+         <Network Type="RF">
+            <Device Model="CHV-TSTATEX" DeviceId="03" Name="Master Bedroom"/>
+            <Device Model="CHV-TSTATEX" DeviceId="04" Name="Master Ensuite"/>
+            <Device Model="CHV-TSTATEX" DeviceId="05" Name="Hallway SF"/>
+            <Device Model="CHV-TSTATEX" DeviceId="06" Name="Bed 2 Bath"/>
+            <Device Model="CHV-TSTATEX" DeviceId="07" Name="Main Bath "/>
+            <Device Model="CHV-TSTATEX" DeviceId="08" Name="GF Main Air"/>
+            <Device Model="CHV-TSTATEX" DeviceId="09" Name="GF Main floor"/>
+            <Device Model="CHV-TSTATEX" DeviceId="10" Name="GF Living Room"/>
+         </Network>
+      </Device>
+      <Device Model="CEN-GWEXER" DeviceId="08" Name="Basement">
+         <Network Type="RF">
+            <Device Model="CHV-TSTATEX" DeviceId="11" Name="Basement Main Air"/>
+            <Device Model="CHV-TSTATEX" DeviceId="12" Name="Basement Main Infloor"/>
+            <Device Model="CHV-TSTATEX" DeviceId="13" Name="Playroom"/>
+            <Device Model="CHV-TSTATEX" DeviceId="14" Name="Guest Room"/>
+            <Device Model="CHV-TSTATEX" DeviceId="15" Name="Bathroom"/>
+            <Device Model="CHV-TSTATEX" DeviceId="16" Name="Pool"/>
+            <Device Model="CLC-FANDELVEX" DeviceId="17"/>
+         </Network>
+      </Device>
+      <Device Model="Crestron_Go" DeviceId="0A" Name="Crestron Go"/>
+      <Device Model="TSW-760" DeviceId="0B" Name="Front Entrance"/>
+      <Device Model="TSW-560" DeviceId="0C" Name="Laundry"/>
+      <Device Model="TSW-1060" DeviceId="0D" Name="GF Kitchen"/>
+      <Device Model="TSW-1060" DeviceId="0E" Name="Master bedroom"/>
+      <Device Model="TSW-1060" DeviceId="0F" Name="Basement"/>
+      <Device Model="CEN-IO-COM-102" DeviceId="10">
+         <Network Type="IR"/>
+      </Device>
+      <Device Model="TSR-310" DeviceId="11" Name="GF"/>
+      <Device Model="TSR-310" DeviceId="12" Name="Basement 200"/>
+      <Device Model="DM-MD8x8-CPU3" DeviceId="13"/>
+      <Device Model="CEN-IO-COM-102" DeviceId="14">
+         <Network Type="IR"/>
+      </Device>
+      <Device Model="Autonomic MMS-5A" DeviceId="15"/>
+      <Device Model="TSR-310" DeviceId="1A" Name="Master"/>
+      <Device Model="TSR-310" DeviceId="1B" Name="Basement"/>
+      <Device Model="TSR-310" DeviceId="1C" Name="Barbeque"/>
+   </Network>
+</Device>

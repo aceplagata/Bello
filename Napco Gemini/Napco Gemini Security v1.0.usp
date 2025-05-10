@@ -1,0 +1,300 @@
+/*******************************************************************************************
+  SIMPL+ Module Information
+  (Fill in comments below)
+*******************************************************************************************/
+/*
+Dealer Name:
+System Name:
+System Number:
+Programmer: CH
+Comments: Napco Zremote System module
+*/
+
+/*******************************************************************************************
+  Compiler Directives
+  (Uncomment and declare compiler directives as needed)
+*******************************************************************************************/
+// #ENABLE_DYNAMIC
+// #SYMBOL_NAME ""
+// #HINT ""
+#DEFINE_CONSTANT NUMBER_OF_ZONES 10
+#CATEGORY "0" 
+// #PRINT_TO_TRACE
+// #DIGITAL_EXPAND 
+// #ANALOG_SERIAL_EXPAND 
+// #OUTPUT_SHIFT 
+// #HELP_PDF_FILE ""
+#DEFAULT_VOLATILE
+#ENABLE_STACK_CHECKING
+#ENABLE_TRACE
+// #ENCODING_ASCII
+// #ENCODING_UTF16
+// #ENCODING_INHERIT_FROM_PARENT
+// #ENCODING_INHERIT_FROM_PROGRAM
+/*
+#HELP_BEGIN
+   (add additional lines of help lines)
+#HELP_END
+*/
+
+/*******************************************************************************************
+  Include Libraries
+  (Uncomment and include additional libraries as needed)
+*******************************************************************************************/
+// #CRESTRON_LIBRARY ""
+// #USER_LIBRARY ""
+
+#USER_SIMPLSHARP_LIBRARY "NapcoZremoteLibrary"
+
+/*******************************************************************************************
+  DIGITAL, ANALOG and SERIAL INPUTS and OUTPUTS
+  (Uncomment and declare inputs and outputs as needed)
+*******************************************************************************************/
+
+DIGITAL_INPUT Initialize,PollStatus;
+DIGITAL_INPUT ArmStay, ArmAway, Disarm;
+DIGITAL_INPUT ClearKeypad;
+DIGITAL_INPUT KeypadKey[20];
+// ANALOG_INPUT 
+// STRING_INPUT 
+// BUFFER_INPUT 
+
+DIGITAL_OUTPUT InitializationIsComplete;
+
+DIGITAL_OUTPUT ArmedStay, ArmedAway, Armed, AlarmIsActive, FireAlarmIsActive;
+
+DIGITAL_OUTPUT SystemTrouble, GuardTour, EntryDelay;
+
+DIGITAL_OUTPUT AreaArmed[8], AreaArmedStay[8];
+
+ANALOG_OUTPUT StatusLEDStatus, ArmedLEDStatus, SounderSatus, SystemStatus;
+ 
+STRING_OUTPUT Message, KeypadText;
+
+/*******************************************************************************************
+  Parameters
+  (Uncomment and declare parameters as needed)
+*******************************************************************************************/
+//INTEGER_PARAMETER ZoneIsEnabled[NUMBER_OF_ZONES];
+// SIGNED_INTEGER_PARAMETER
+// LONG_INTEGER_PARAMETER
+// SIGNED_LONG_INTEGER_PARAMETER
+STRING_PARAMETER DeviceName[100];
+NapcoZremoteSystemSSharpComponent SimplSharpComponent;
+
+/*******************************************************************************************
+  Global Variables
+  (Uncomment and declare global variables as needed)
+  Note:  Be sure to initialize all declared STRING variables as needed
+         For example, in Function Main: myString = "";
+*******************************************************************************************/
+// INTEGER
+// LONG_INTEGER
+// SIGNED_INTEGER
+// SIGNED_LONG_INTEGER
+// STRING
+
+
+
+/*******************************************************************************************
+  Event Handlers
+  (Uncomment and declare additional event handlers as needed)
+*******************************************************************************************/
+
+
+PUSH Initialize
+{
+    SimplSharpComponent.InitializeSettings(DeviceName);
+}
+
+
+
+PUSH PollStatus
+{
+    SimplSharpComponent.RequestStatus();
+}
+
+/********************************************************************
+						KEYPAD
+*********************************************************************/
+
+PUSH KeypadKey
+{
+	integer i;
+	i = getLastModifiedArrayIndex();
+
+	
+    SimplSharpComponent.ProcessKeypadPress(i);
+}
+
+PUSH ClearKeypad
+{
+    SimplSharpComponent.ClearKeypadText();
+
+}
+
+
+/********************************************************************
+						COMMANDS
+*********************************************************************/
+
+
+PUSH ArmStay
+{
+    SimplSharpComponent.SetArmStay();
+
+}
+
+PUSH ArmAway
+{
+    SimplSharpComponent.SetArmAway();
+
+}
+
+PUSH Disarm
+{
+    SimplSharpComponent.SetDisarm();
+
+}
+
+
+/*****************************************************
+                CALLBACK FUNCTIONS
+******************************************************/
+
+
+Callback Function UpdateKeypadTextCallback(string tempString)
+{
+	KeypadText = tempString;
+}
+
+
+/********************************************************************
+						Display & LED Feedback
+*********************************************************************/
+
+Callback Function updateStatusLEDCallback(signed_long_integer tempState)
+{
+	StatusLEDStatus = tempState;
+}
+
+
+Callback Function updateArmedLEDCallback(signed_long_integer tempState)
+{
+	StatusLEDStatus = tempState;
+}
+
+Callback Function updateSounderCallback(signed_long_integer tempState)
+{
+	SounderSatus = tempState;
+}
+
+Callback Function updateArmedStatusCallback(signed_long_integer tempState)
+{
+	Armed = tempState;
+}
+
+Callback Function updateStayStatusCallback(signed_long_integer tempState)
+{
+	ArmedStay = tempState;
+}
+
+Callback Function updateAwayStatusCallback(signed_long_integer tempState)
+{
+	ArmedAway = tempState;
+}
+
+Callback Function updateFireAlarmStatusCallback(signed_long_integer tempState)
+{
+	FireAlarmIsActive = tempState;
+}
+
+Callback Function updateBurgAlarmStatusCallback(signed_long_integer tempState)
+{
+	AlarmIsActive = tempState;
+}
+
+Callback Function updateSystemTroubleStatusCallback(signed_long_integer tempState)
+{
+	SystemTrouble = tempState;
+}
+
+Callback Function updateGuardTourStatusCallback(signed_long_integer tempState)
+{
+	GuardTour = tempState;
+}
+
+Callback Function updateEntryDelayStatusCallback(signed_long_integer tempState)
+{
+	EntryDelay = tempState;
+}
+
+
+
+Callback Function updateAreaArmedListByIndexCallback(signed_long_integer index, signed_long_integer tempState)
+{
+	AreaArmed[index] = tempState;
+}
+
+Callback Function updateAreaArmedStayListByIndexCallback(signed_long_integer index, signed_long_integer tempState)
+{
+	AreaArmedStay[index] = tempState;
+}
+
+
+
+/******************************************************
+    			DELEGATES AND EVENTS
+*******************************************************/
+
+
+Callback Function initializationIsCompleteCallback(signed_long_integer tempState)
+{
+	InitializationIsComplete = tempState;
+}
+
+Callback Function UpdateMessageCallback(string tempString)
+{
+	Message = tempString;
+}
+
+
+callback function basicInitializationIsCompleteHandler()
+{
+	RegisterDelegate(simplSharpComponent, initializationIsComplete, initializationIsCompleteCallback);
+
+	RegisterDelegate(simplSharpComponent, updateStatusLED, updateStatusLEDCallback);
+	RegisterDelegate(simplSharpComponent, updateArmedLED, updateArmedLEDCallback);
+	RegisterDelegate(simplSharpComponent, updateSounder, updateSounderCallback);
+	RegisterDelegate(simplSharpComponent, updateArmedStatus, updateArmedStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateStayStatus, updateStayStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateAwayStatus, updateAwayStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateFireAlarmStatus, updateFireAlarmStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateBurgAlarmStatus, updateBurgAlarmStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateSystemTroubleStatus, updateSystemTroubleStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateGuardTourStatus, updateGuardTourStatusCallback);
+	RegisterDelegate(simplSharpComponent, updateEntryDelayStatus, updateEntryDelayStatusCallback);
+
+	RegisterDelegate(simplSharpComponent, updateAreaArmedListByIndex, updateAreaArmedListByIndexCallback);
+	RegisterDelegate(simplSharpComponent, updateAreaArmedStayListByIndex, updateAreaArmedStayListByIndexCallback);
+	
+    RegisterDelegate(simplSharpComponent, UpdateKeypadText, UpdateKeypadTextCallback);		
+
+    simplSharpComponent.BeginInitialization();
+}
+
+
+/*******************************************************************************************
+  Main()
+  Uncomment and place one-time startup code here
+  (This code will get called when the system starts up)
+*******************************************************************************************/
+
+Function Main()
+{
+    RegisterDelegate(simplSharpComponent, basicInitializationIsComplete, basicInitializationIsCompleteHandler);
+	RegisterDelegate(simplSharpComponent, UpdateMessage, UpdateMessageCallback);
+
+}
+
+

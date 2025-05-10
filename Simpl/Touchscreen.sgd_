@@ -1,0 +1,2341 @@
+[
+ObjTp=FSgntr
+Sgntr=SGD
+RelVrs=3
+VTProeVer=6.2.00
+Schema=1
+CRCGUID=19C9CB8C-36EF-4391-A368-4E3F1D991AB7
+]
+;================================================================================
+[
+ObjTp=Hd
+ProjectFile=Touchscreen.vtp
+VtpGuid=D1A48036-FFF5-4E12-AF4B-60E9CB6886EE
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_001.Main page_Main Menu.ced
+Hint=Main Menu (Smart Object ID=2)
+Code=1
+SGControlType=Button List Horizontal
+SGControlName=Main Menu
+GUID=F8CED341-A607-4F77-AC75-2BF10F5B5C2D
+SmplCName=Touchscreen_001.Main page_Main Menu.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10008
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=7
+MaxVariableInputs=7
+MinVariableOutputs=7
+MaxVariableOutputs=7
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=7
+MaxVariableInputsList3=7
+MinVariableOutputsList3=7
+MaxVariableOutputsList3=7
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=1
+CedH=1
+SmartObjId=2d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=1
+Tp=1
+HD=TRUE
+DV=2d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=1
+Name=Touchscreen_001.Main page_Main Menu.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_Volume Zones_Button List Vertical.ced
+Hint=Button List Vertical (Smart Object ID=10)
+Code=2
+SGControlType=Button List Vertical
+SGControlName=Button List Vertical
+GUID=D4EA0126-823F-45F1-BC45-BE1CEB1835F8
+SmplCName=Touchscreen_Volume Zones_Button List Vertical.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=9
+MaxVariableInputs=9
+MinVariableOutputs=9
+MaxVariableOutputs=9
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=9
+MaxVariableInputsList3=9
+MinVariableOutputsList3=9
+MaxVariableOutputsList3=9
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=2
+CedH=2
+SmartObjId=10d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=2
+Tp=1
+HD=TRUE
+DV=10d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=2
+Name=Touchscreen_Volume Zones_Button List Vertical.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_002.Second Floor Page_Button List Vertical_4.ced
+Hint=Button List Vertical_4 (Smart Object ID=12)
+Code=3
+SGControlType=Button List Vertical
+SGControlName=Button List Vertical_4
+GUID=1A6BB1C7-1FC4-4F48-93CB-178C78B7A713
+SmplCName=Touchscreen_002.Second Floor Page_Button List Vertical_4.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=3
+MaxVariableInputs=3
+MinVariableOutputs=3
+MaxVariableOutputs=3
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=3
+MaxVariableInputsList3=3
+MinVariableOutputsList3=3
+MaxVariableOutputsList3=3
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=3
+CedH=3
+SmartObjId=12d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=3
+Tp=1
+HD=TRUE
+DV=12d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=3
+Name=Touchscreen_002.Second Floor Page_Button List Vertical_4.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_004.Shades_Tab Button Shades.ced
+Hint=Tab Button Shades (Smart Object ID=8)
+Code=4
+SGControlType=Horizontal Tab Button
+SGControlName=Tab Button Shades
+GUID=96C4E76A-AA49-45E7-87DC-DC4BF4905A1E
+SmplCName=Touchscreen_004.Shades_Tab Button Shades.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10031
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=18
+MaxVariableInputs=18
+MinVariableOutputs=18
+MaxVariableOutputs=18
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Tab Button 1 Press
+OutputSigType1=Digital
+InputCue2=Tab Button 1 Select
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Tab Button 2 Press
+OutputSigType3=Digital
+InputCue4=Tab Button 2 Select
+InputSigType4=Digital
+OutputCue4=[~UNUSED3~]
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Tab Button 3 Press
+OutputSigType5=Digital
+InputCue6=Tab Button 3 Select
+InputSigType6=Digital
+OutputCue6=[~UNUSED3~]
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Tab Button 4 Press
+OutputSigType7=Digital
+InputCue8=Tab Button 4 Select
+InputSigType8=Digital
+OutputCue8=[~UNUSED3~]
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Tab Button 5 Press
+OutputSigType9=Digital
+InputCue10=Tab Button 5 Select
+InputSigType10=Digital
+OutputCue10=[~UNUSED3~]
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Tab Button 6 Press
+OutputSigType11=Digital
+InputCue12=Tab Button 6 Select
+InputSigType12=Digital
+OutputCue12=[~UNUSED3~]
+OutputSigType12=Digital
+InputCue13=[~UNUSED3~]
+InputSigType13=Digital
+OutputCue13=Tab Button 7 Press
+OutputSigType13=Digital
+InputCue14=Tab Button 7 Select
+InputSigType14=Digital
+OutputCue14=[~UNUSED3~]
+OutputSigType14=Digital
+InputCue15=[~UNUSED3~]
+InputSigType15=Digital
+OutputCue15=Tab Button 8 Press
+OutputSigType15=Digital
+InputCue16=Tab Button 8 Select
+InputSigType16=Digital
+OutputCue16=[~UNUSED3~]
+OutputSigType16=Digital
+InputCue17=[~UNUSED3~]
+InputSigType17=Digital
+OutputCue17=Tab Button 9 Press
+OutputSigType17=Digital
+InputCue18=Tab Button 9 Select
+InputSigType18=Digital
+OutputCue18=[~UNUSED3~]
+OutputSigType18=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=4
+CedH=4
+SmartObjId=8d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=4
+Tp=1
+HD=TRUE
+DV=8d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=4
+Name=Touchscreen_004.Shades_Tab Button Shades.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_005.BGM_BGM Selection.ced
+Hint=BGM Selection (Smart Object ID=1)
+Code=5
+SGControlType=Button List Vertical
+SGControlName=BGM Selection
+GUID=3211286E-300A-4AB5-ADDF-2E70FA402CF2
+SmplCName=Touchscreen_005.BGM_BGM Selection.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=9
+MaxVariableInputs=9
+MinVariableOutputs=9
+MaxVariableOutputs=9
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=9
+MaxVariableInputsList3=9
+MinVariableOutputsList3=9
+MaxVariableOutputsList3=9
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=5
+CedH=5
+SmartObjId=1d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=5
+Tp=1
+HD=TRUE
+DV=1d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=5
+Name=Touchscreen_005.BGM_BGM Selection.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_005.BGM_Source 1.ced
+Hint=Source 1 (Smart Object ID=21)
+Code=6
+SGControlType=Media Player Application
+SGControlName=Source 1
+GUID=FE942D8E-A340-4776-B2E0-3C409E80E94B
+SmplCName=Touchscreen_005.BGM_Source 1.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10040
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=3
+MaxVariableInputs=3
+MinVariableOutputs=3
+MaxVariableOutputs=3
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=3
+MaxVariableInputsList3=3
+MinVariableOutputsList3=3
+MaxVariableOutputsList3=3
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=Refresh
+InputSigType1=Digital
+OutputCue1=[~UNUSED3~]
+OutputSigType1=Digital
+InputCue2=Offline
+InputSigType2=Digital
+OutputCue2=[~UNUSED3~]
+OutputSigType2=Digital
+InputCue3=Use_Message
+InputSigType3=Digital
+OutputCue3=[~UNUSED3~]
+OutputSigType3=Digital
+InputList3Cue1=CRPC_FB
+InputList3SigType1=Serial
+OutputList3Cue1=CRPC
+OutputList3SigType1=Serial
+InputList3Cue2=Player_Name
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Message_FB
+InputList3SigType3=Serial
+OutputList3Cue3=Message
+OutputList3SigType3=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=6
+CedH=6
+SmartObjId=21d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=6
+Tp=1
+HD=TRUE
+DV=21d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=6
+Name=Touchscreen_005.BGM_Source 1.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+CedMod=Media Server Object Router v4.0.cmc
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.TV_Button List Vertical_3.ced
+Hint=Button List Vertical_3 (Smart Object ID=11)
+Code=7
+SGControlType=Button List Vertical
+SGControlName=Button List Vertical_3
+GUID=4C07A0C3-DBB9-4A1D-BCEF-8EFFCFB61EE8
+SmplCName=Touchscreen_006.TV_Button List Vertical_3.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=5
+MaxVariableInputsList3=5
+MinVariableOutputsList3=5
+MaxVariableOutputsList3=5
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=7
+CedH=7
+SmartObjId=11d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=7
+Tp=1
+HD=TRUE
+DV=11d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=7
+Name=Touchscreen_006.TV_Button List Vertical_3.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_007.CCTV_Button List Vertical_2.ced
+Hint=Button List Vertical_2 (Smart Object ID=7)
+Code=8
+SGControlType=Button List Vertical
+SGControlName=Button List Vertical_2
+GUID=ED2FD255-5999-40C0-86EE-F8134FB304A7
+SmplCName=Touchscreen_007.CCTV_Button List Vertical_2.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=13
+MaxVariableInputs=13
+MinVariableOutputs=13
+MaxVariableOutputs=13
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=13
+MaxVariableInputsList3=13
+MinVariableOutputsList3=13
+MaxVariableOutputsList3=13
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=Item 6 Pressed
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=Item 7 Pressed
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=Item 8 Pressed
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=Item 9 Pressed
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=Item 10 Pressed
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Item 11 Pressed
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Item 12 Pressed
+OutputSigType12=Digital
+InputCue13=[~UNUSED3~]
+InputSigType13=Digital
+OutputCue13=Item 13 Pressed
+OutputSigType13=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+InputList3Cue6=Item 6 Text
+InputList3SigType6=Serial
+OutputList3Cue6=[~UNUSED3~]
+OutputList3SigType6=Serial
+InputList3Cue7=Item 7 Text
+InputList3SigType7=Serial
+OutputList3Cue7=[~UNUSED3~]
+OutputList3SigType7=Serial
+InputList3Cue8=Item 8 Text
+InputList3SigType8=Serial
+OutputList3Cue8=[~UNUSED3~]
+OutputList3SigType8=Serial
+InputList3Cue9=Item 9 Text
+InputList3SigType9=Serial
+OutputList3Cue9=[~UNUSED3~]
+OutputList3SigType9=Serial
+InputList3Cue10=Item 10 Text
+InputList3SigType10=Serial
+OutputList3Cue10=[~UNUSED3~]
+OutputList3SigType10=Serial
+InputList3Cue11=Item 11 Text
+InputList3SigType11=Serial
+OutputList3Cue11=[~UNUSED3~]
+OutputList3SigType11=Serial
+InputList3Cue12=Item 12 Text
+InputList3SigType12=Serial
+OutputList3Cue12=[~UNUSED3~]
+OutputList3SigType12=Serial
+InputList3Cue13=Item 13 Text
+InputList3SigType13=Serial
+OutputList3Cue13=[~UNUSED3~]
+OutputList3SigType13=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=8
+CedH=8
+SmartObjId=7d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=8
+Tp=1
+HD=TRUE
+DV=7d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=8
+Name=Touchscreen_007.CCTV_Button List Vertical_2.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_004.Security_Alarm List.ced
+Hint=Alarm List (Smart Object ID=5)
+Code=9
+SGControlType=Button List Vertical
+SGControlName=Alarm List
+GUID=86F8F781-9D70-429B-97E6-CC2BEB480510
+SmplCName=Touchscreen_004.Security_Alarm List.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=3
+MaxVariableInputs=3
+MinVariableOutputs=3
+MaxVariableOutputs=3
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=3
+MaxVariableInputsList3=3
+MinVariableOutputsList3=3
+MaxVariableOutputsList3=3
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=9
+CedH=9
+SmartObjId=5d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=9
+Tp=1
+HD=TRUE
+DV=5d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=9
+Name=Touchscreen_004.Security_Alarm List.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_004.Security_Keypad Special Buttons.ced
+Hint=Keypad Special Buttons (Smart Object ID=6)
+Code=10
+SGControlType=Button List Vertical
+SGControlName=Keypad Special Buttons
+GUID=CF66B064-5F13-4F11-9A1D-3F7F191BE4F8
+SmplCName=Touchscreen_004.Security_Keypad Special Buttons.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10009
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=6
+MaxVariableInputsList2=6
+MinVariableOutputsList2=6
+MaxVariableOutputsList2=6
+MinVariableInputsList3=5
+MaxVariableInputsList3=5
+MinVariableOutputsList3=5
+MaxVariableOutputsList3=5
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Item 1 Pressed
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Item 2 Pressed
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Item 3 Pressed
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Item 4 Pressed
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Item 5 Pressed
+OutputSigType5=Digital
+InputList2Cue1=Select Item
+InputList2SigType1=Analog
+OutputList2Cue1=[~UNUSED3~]
+OutputList2SigType1=Analog
+InputList2Cue2=Deselect Item
+InputList2SigType2=Analog
+OutputList2Cue2=[~UNUSED3~]
+OutputList2SigType2=Analog
+InputList2Cue3=Scroll Item
+InputList2SigType3=Analog
+OutputList2Cue3=[~UNUSED3~]
+OutputList2SigType3=Analog
+InputList2Cue4=[~UNUSED3~]
+InputList2SigType4=Analog
+OutputList2Cue4=Item Clicked
+OutputList2SigType4=Analog
+InputList2Cue5=[~UNUSED3~]
+InputList2SigType5=Analog
+OutputList2Cue5=Item Held
+OutputList2SigType5=Analog
+InputList2Cue6=Set Num of Items
+InputList2SigType6=Analog
+OutputList2Cue6=[~UNUSED3~]
+OutputList2SigType6=Analog
+InputList3Cue1=Item 1 Text
+InputList3SigType1=Serial
+OutputList3Cue1=[~UNUSED3~]
+OutputList3SigType1=Serial
+InputList3Cue2=Item 2 Text
+InputList3SigType2=Serial
+OutputList3Cue2=[~UNUSED3~]
+OutputList3SigType2=Serial
+InputList3Cue3=Item 3 Text
+InputList3SigType3=Serial
+OutputList3Cue3=[~UNUSED3~]
+OutputList3SigType3=Serial
+InputList3Cue4=Item 4 Text
+InputList3SigType4=Serial
+OutputList3Cue4=[~UNUSED3~]
+OutputList3SigType4=Serial
+InputList3Cue5=Item 5 Text
+InputList3SigType5=Serial
+OutputList3Cue5=[~UNUSED3~]
+OutputList3SigType5=Serial
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=10
+CedH=10
+SmartObjId=6d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=10
+Tp=1
+HD=TRUE
+DV=6d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=10
+Name=Touchscreen_004.Security_Keypad Special Buttons.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite Master_DPad ignite MB.ced
+Hint=DPad ignite MB (Smart Object ID=32)
+Code=11
+SGControlType=DPad
+SGControlName=DPad ignite MB
+GUID=E0120E41-6654-417E-BBEE-E378D6278D55
+SmplCName=Touchscreen_006.Ignite Master_DPad ignite MB.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=11
+CedH=11
+SmartObjId=32d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=11
+Tp=1
+HD=TRUE
+DV=32d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=11
+Name=Touchscreen_006.Ignite Master_DPad ignite MB.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite Master_Keypad ignite MB .ced
+Hint=Keypad ignite MB  (Smart Object ID=31)
+Code=12
+SGControlType=Simple Keypad
+SGControlName=Keypad ignite MB 
+GUID=12DB3C7F-F60D-4A7C-B457-EB54AEAEE21F
+SmplCName=Touchscreen_006.Ignite Master_Keypad ignite MB .ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Misc_1
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Misc_2
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=12
+CedH=12
+SmartObjId=31d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=12
+Tp=1
+HD=TRUE
+DV=31d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=12
+Name=Touchscreen_006.Ignite Master_Keypad ignite MB .ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Master TV_DPad TV MB.ced
+Hint=DPad TV MB (Smart Object ID=30)
+Code=13
+SGControlType=DPad
+SGControlName=DPad TV MB
+GUID=D3AEA200-56B6-40E3-81D4-D7906B7F7FDC
+SmplCName=Touchscreen_006.Master TV_DPad TV MB.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=13
+CedH=13
+SmartObjId=30d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=13
+Tp=1
+HD=TRUE
+DV=30d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=13
+Name=Touchscreen_006.Master TV_DPad TV MB.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.TV GF_DPad TV GF.ced
+Hint=DPad TV GF (Smart Object ID=33)
+Code=14
+SGControlType=DPad
+SGControlName=DPad TV GF
+GUID=717D6611-9273-40CE-922B-4E99AB0D802A
+SmplCName=Touchscreen_006.TV GF_DPad TV GF.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=14
+CedH=14
+SmartObjId=33d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=14
+Tp=1
+HD=TRUE
+DV=33d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=14
+Name=Touchscreen_006.TV GF_DPad TV GF.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite GF_DPad ignite GF.ced
+Hint=DPad ignite GF (Smart Object ID=35)
+Code=15
+SGControlType=DPad
+SGControlName=DPad ignite GF
+GUID=2E9F3AA5-49EF-4E1D-983A-E1603F3229B1
+SmplCName=Touchscreen_006.Ignite GF_DPad ignite GF.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=15
+CedH=15
+SmartObjId=35d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=15
+Tp=1
+HD=TRUE
+DV=35d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=15
+Name=Touchscreen_006.Ignite GF_DPad ignite GF.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite GF_Keypad ignite GF.ced
+Hint=Keypad ignite GF (Smart Object ID=34)
+Code=16
+SGControlType=Simple Keypad
+SGControlName=Keypad ignite GF
+GUID=9049012B-DB50-4C7F-A763-CEAE397F857D
+SmplCName=Touchscreen_006.Ignite GF_Keypad ignite GF.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Misc_1
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Misc_2
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=16
+CedH=16
+SmartObjId=34d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=16
+Tp=1
+HD=TRUE
+DV=34d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=16
+Name=Touchscreen_006.Ignite GF_Keypad ignite GF.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.TV Basement_DPad TV Basement.ced
+Hint=DPad TV Basement (Smart Object ID=36)
+Code=17
+SGControlType=DPad
+SGControlName=DPad TV Basement
+GUID=B4CB192B-E1F4-47D3-B39F-ED92390930BD
+SmplCName=Touchscreen_006.TV Basement_DPad TV Basement.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=17
+CedH=17
+SmartObjId=36d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=17
+Tp=1
+HD=TRUE
+DV=36d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=17
+Name=Touchscreen_006.TV Basement_DPad TV Basement.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite Basement_DPad ignite Basement.ced
+Hint=DPad ignite Basement (Smart Object ID=38)
+Code=18
+SGControlType=DPad
+SGControlName=DPad ignite Basement
+GUID=E5DDB6DC-997C-47D9-A07F-9D95EA9AB674
+SmplCName=Touchscreen_006.Ignite Basement_DPad ignite Basement.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=18
+CedH=18
+SmartObjId=38d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=18
+Tp=1
+HD=TRUE
+DV=38d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=18
+Name=Touchscreen_006.Ignite Basement_DPad ignite Basement.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite Basement_Keypad ignite Basement.ced
+Hint=Keypad ignite Basement (Smart Object ID=37)
+Code=19
+SGControlType=Simple Keypad
+SGControlName=Keypad ignite Basement
+GUID=D6C960ED-1E15-4DD6-87A6-C9542FDEAD24
+SmplCName=Touchscreen_006.Ignite Basement_Keypad ignite Basement.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Misc_1
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Misc_2
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=19
+CedH=19
+SmartObjId=37d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=19
+Tp=1
+HD=TRUE
+DV=37d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=19
+Name=Touchscreen_006.Ignite Basement_Keypad ignite Basement.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.TV Playroom_DPad TV Playroom.ced
+Hint=DPad TV Playroom (Smart Object ID=39)
+Code=20
+SGControlType=DPad
+SGControlName=DPad TV Playroom
+GUID=95DEFD02-B7C6-434A-AC7E-AD8351F9A34E
+SmplCName=Touchscreen_006.TV Playroom_DPad TV Playroom.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=20
+CedH=20
+SmartObjId=39d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=20
+Tp=1
+HD=TRUE
+DV=39d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=20
+Name=Touchscreen_006.TV Playroom_DPad TV Playroom.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite Playroom_DPad ignite Playroom.ced
+Hint=DPad ignite Playroom (Smart Object ID=41)
+Code=21
+SGControlType=DPad
+SGControlName=DPad ignite Playroom
+GUID=8AB934A8-A2A8-4C3A-8BA0-86981E44FA97
+SmplCName=Touchscreen_006.Ignite Playroom_DPad ignite Playroom.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10015
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=5
+MaxVariableInputs=5
+MinVariableOutputs=5
+MaxVariableOutputs=5
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=Up
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=Down
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=Left
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=Right
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=Center
+OutputSigType5=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=21
+CedH=21
+SmartObjId=41d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=21
+Tp=1
+HD=TRUE
+DV=41d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=21
+Name=Touchscreen_006.Ignite Playroom_DPad ignite Playroom.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]
+;================================================================================
+[
+ObjTp=Symbol
+Name=Touchscreen_006.Ignite Playroom_Keypad ignite PlayRoom.ced
+Hint=Keypad ignite PlayRoom (Smart Object ID=40)
+Code=22
+SGControlType=Simple Keypad
+SGControlName=Keypad ignite PlayRoom
+GUID=E35FC49D-4D6F-4D7D-AEA1-25DE86823C46
+SmplCName=Touchscreen_006.Ignite Playroom_Keypad ignite PlayRoom.ced
+SMWRev=4.02.19
+Expand=expand_random
+HelpID=10061
+;Define the number of inputs, outputs and parameters
+MinVariableInputs=12
+MaxVariableInputs=12
+MinVariableOutputs=12
+MaxVariableOutputs=12
+NumFixedParams=1
+MinVariableInputsList2=0
+MaxVariableInputsList2=0
+MinVariableOutputsList2=0
+MaxVariableOutputsList2=0
+MinVariableInputsList3=0
+MaxVariableInputsList3=0
+MinVariableOutputsList3=0
+MaxVariableOutputsList3=0
+;Define the cues, and signal types  each input, output and parameter.
+InputCue1=[~UNUSED3~]
+InputSigType1=Digital
+OutputCue1=1
+OutputSigType1=Digital
+InputCue2=[~UNUSED3~]
+InputSigType2=Digital
+OutputCue2=2
+OutputSigType2=Digital
+InputCue3=[~UNUSED3~]
+InputSigType3=Digital
+OutputCue3=3
+OutputSigType3=Digital
+InputCue4=[~UNUSED3~]
+InputSigType4=Digital
+OutputCue4=4
+OutputSigType4=Digital
+InputCue5=[~UNUSED3~]
+InputSigType5=Digital
+OutputCue5=5
+OutputSigType5=Digital
+InputCue6=[~UNUSED3~]
+InputSigType6=Digital
+OutputCue6=6
+OutputSigType6=Digital
+InputCue7=[~UNUSED3~]
+InputSigType7=Digital
+OutputCue7=7
+OutputSigType7=Digital
+InputCue8=[~UNUSED3~]
+InputSigType8=Digital
+OutputCue8=8
+OutputSigType8=Digital
+InputCue9=[~UNUSED3~]
+InputSigType9=Digital
+OutputCue9=9
+OutputSigType9=Digital
+InputCue10=[~UNUSED3~]
+InputSigType10=Digital
+OutputCue10=0
+OutputSigType10=Digital
+InputCue11=[~UNUSED3~]
+InputSigType11=Digital
+OutputCue11=Misc_1
+OutputSigType11=Digital
+InputCue12=[~UNUSED3~]
+InputSigType12=Digital
+OutputCue12=Misc_2
+OutputSigType12=Digital
+ParamCue1=SmartObjectId
+ParamSigType1=Constant
+MPp=1
+Pp1=22
+CedH=22
+SmartObjId=40d
+]
+; Parameter Properties for Smart Object ID
+[
+ObjTp=Dp
+H=22
+Tp=1
+HD=TRUE
+DV=40d
+NF=1
+DNF=1
+EncFmt=0
+DVLF=1
+Sgn=0
+]
+; Smart Objects Definition section
+[
+ObjTp=CED
+H=22
+Name=Touchscreen_006.Ignite Playroom_Keypad ignite PlayRoom.ced
+;Cedver is the version of the Smart Graphics control, not the CED file format.
+;If the control definition changes, increment this.
+CedVer=1
+]

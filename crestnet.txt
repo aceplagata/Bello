@@ -1,0 +1,181 @@
+Keypads
+10- entrance
+11- living room
+12- Sitting Room
+13- GF stairs
+14- Office
+15- 2nd bed bath
+16- hallway
+17- bed 4 door
+18-Bed 2 Door
+19- MB door
+20- bed 3 door
+21- bed 2 sidebed
+22- bed 4 sidebed
+23- MB ensuite
+24- mb leftside 
+25- Mb right Side
+26- Main Bathroom
+27- bed 3 sidebed
+28- bed 4 side bed
+45- kitchen island
+46- pantry
+47- laundry near garage
+48- Main powder room
+49- Laundry 
+50- Basment Playroom
+51- Basement center
+52- basment stock room
+53- basement kitchen
+54- Basement Stair
+55- basment Door
+56- Basment Bathroom
+57- basment guest room
+
+
+sensor
+30- main bath
+31- front bed 3
+32- 2nd bed bathroom
+33- main floor powder
+34- front of bed 4
+35- main floor closet mid
+36- main floor closet Right
+37- main floor closet Left
+38- office
+39- front MB
+40- Basement bathroom
+41- basement front stairs
+42- Master ensuite
+
+
+12345600
+Dennis
+Donna
+Apple
+
+crestron
+AV3: admin - - CWA_AV3	
+
+filbello.mycrestron.com
+443
+41796
+
+appleID
+bellofr@rogers.com
+Avaluigi3
+
+admin
+CWA_bello
+192.168.1.64 - NVR
+192.168.1.65 - 77 : Camera
+
+rtsp://admin:CWA_bello@192.168.1.65:554/Streaming/Channels/102
+
+network
+admin:CWA_luxul
+
+SSID
+Home2.4:Myhome123
+Home5G:Myhome1234
+192.168.1.120
+121
+122
+123
+
+AV3
+192.168.1.100
+admin:CWA_AV3
+
+192.168.1.101
+Front entrance
+
+192.168.1.102
+Laundry
+
+192.168.1.103
+GF Kitchen
+
+192.168.1.104
+Master Bedroom
+
+192.168.1.105
+Basement
+
+192.168.1.106
+MD8x8
+
+192.168.1.107
+first 6x100
+
+192.168.1.108
+second 6x100
+
+Rogers
+Modem= 192.168.1.1
+admin
+roger1234
+
+Jory Rogers
+6472487549
+
+Lutron Blinds
+roller shade 15 - basement door
+button 1- up
+2- down
+roller shade 14 - basement door left
+3-up
+4-down
+roller shade 13 - basement door right
+5- down
+6- up
+Roller shade 12 - basement window right
+7-up
+8-down
+roller shade 11 - basement window left
+9-up
+10-down
+roller shade 10 - SF master bedroom
+11- up
+12-down
+Roller shade 9- Bed 2(luigi)
+13 - up
+14-down
+Roller shade 8 - bed 3(AVA)
+15- up
+16- down
+Roller Shade 7 - GF window left
+17-up
+18- down
+Roller shade 6 - GF door right
+19-up
+20-down
+roller shade 5 - gf door
+21-up
+22-down
+Roller shade 21 - GF window right
+23-up
+24-down
+Roller shade 22 -GF living Room
+25-up
+26-down
+Roller shade 23-GF office
+27-up
+28-down
+Roller shade 4 - GF door left
+50-up
+51-down
+
+CASE NUMBER
+01469793
+order number/line number
+
+
+aCCNT:02095429
+nAPCO sECURITY
+
+
+
+
+
+
